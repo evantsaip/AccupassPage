@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7CE41F21B25AC7800F134CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CE41F11B25AC7800F134CC /* main.m */; };
+		A7CE41F51B25AC7800F134CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CE41F41B25AC7800F134CC /* AppDelegate.m */; };
+		A7CE41F81B25AC7800F134CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CE41F71B25AC7800F134CC /* ViewController.m */; };
+		A7CE41FB1B25AC7800F134CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CE41F91B25AC7800F134CC /* Main.storyboard */; };
+		A7CE41FD1B25AC7800F134CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CE41FC1B25AC7800F134CC /* Images.xcassets */; };
+		A7CE42001B25AC7800F134CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CE41FE1B25AC7800F134CC /* LaunchScreen.xib */; };
+		A7CE420C1B25AC7800F134CC /* Day_14HwAccupassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CE420B1B25AC7800F134CC /* Day_14HwAccupassTests.m */; };
+		A7CE421F1B25BF5600F134CC /* accessibility.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE42181B25BF5600F134CC /* accessibility.png */; };
+		A7CE42201B25BF5600F134CC /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE42191B25BF5600F134CC /* cart.png */; };
+		A7CE42211B25BF5600F134CC /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE421A1B25BF5600F134CC /* exit.png */; };
+		A7CE42221B25BF5600F134CC /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE421B1B25BF5600F134CC /* search.png */; };
+		A7CE42231B25BF5600F134CC /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE421C1B25BF5600F134CC /* settings.png */; };
+		A7CE42241B25BF5600F134CC /* wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE421D1B25BF5600F134CC /* wrench.png */; };
+		A7CE42251B25BF5600F134CC /* iPhone 6 Accupass.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE421E1B25BF5600F134CC /* iPhone 6 Accupass.png */; };
+		A7CE42291B25C0D800F134CC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE42281B25C0D800F134CC /* logo.png */; };
+		A7CE422D1B25CA3100F134CC /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE422C1B25CA3100F134CC /* safari.png */; };
+		A7CE422F1B25D06800F134CC /* personphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CE422E1B25D06800F134CC /* personphoto.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7CE42061B25AC7800F134CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CE41E41B25AC7800F134CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CE41EB1B25AC7800F134CC;
+			remoteInfo = "Day#14HwAccupass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7CE41EC1B25AC7800F134CC /* Day#14HwAccupass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day#14HwAccupass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CE41F01B25AC7800F134CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CE41F11B25AC7800F134CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7CE41F31B25AC7800F134CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7CE41F41B25AC7800F134CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7CE41F61B25AC7800F134CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7CE41F71B25AC7800F134CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7CE41FA1B25AC7800F134CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7CE41FC1B25AC7800F134CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7CE41FF1B25AC7800F134CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7CE42051B25AC7800F134CC /* Day#14HwAccupassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day#14HwAccupassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CE420A1B25AC7800F134CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CE420B1B25AC7800F134CC /* Day_14HwAccupassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day_14HwAccupassTests.m; sourceTree = "<group>"; };
+		A7CE42181B25BF5600F134CC /* accessibility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accessibility.png; path = Images.xcassets/accessibility.png; sourceTree = "<group>"; };
+		A7CE42191B25BF5600F134CC /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = Images.xcassets/cart.png; sourceTree = "<group>"; };
+		A7CE421A1B25BF5600F134CC /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exit.png; path = Images.xcassets/exit.png; sourceTree = "<group>"; };
+		A7CE421B1B25BF5600F134CC /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = Images.xcassets/search.png; sourceTree = "<group>"; };
+		A7CE421C1B25BF5600F134CC /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = Images.xcassets/settings.png; sourceTree = "<group>"; };
+		A7CE421D1B25BF5600F134CC /* wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wrench.png; path = Images.xcassets/wrench.png; sourceTree = "<group>"; };
+		A7CE421E1B25BF5600F134CC /* iPhone 6 Accupass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone 6 Accupass.png"; path = "Images.xcassets/iPhone 6 Accupass.png"; sourceTree = "<group>"; };
+		A7CE42281B25C0D800F134CC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../../../Accupass/logo.png; sourceTree = "<group>"; };
+		A7CE422C1B25CA3100F134CC /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = safari.png; path = Images.xcassets/safari.png; sourceTree = "<group>"; };
+		A7CE422E1B25D06800F134CC /* personphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = personphoto.png; path = Images.xcassets/personphoto.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7CE41E91B25AC7800F134CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CE42021B25AC7800F134CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7CE41E31B25AC7800F134CC = {
+			isa = PBXGroup;
+			children = (
+				A7CE41EE1B25AC7800F134CC /* Day#14HwAccupass */,
+				A7CE42081B25AC7800F134CC /* Day#14HwAccupassTests */,
+				A7CE41ED1B25AC7800F134CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CE41ED1B25AC7800F134CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE41EC1B25AC7800F134CC /* Day#14HwAccupass.app */,
+				A7CE42051B25AC7800F134CC /* Day#14HwAccupassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7CE41EE1B25AC7800F134CC /* Day#14HwAccupass */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE42151B25BAB400F134CC /* Image */,
+				A7CE41F31B25AC7800F134CC /* AppDelegate.h */,
+				A7CE41F41B25AC7800F134CC /* AppDelegate.m */,
+				A7CE41F61B25AC7800F134CC /* ViewController.h */,
+				A7CE41F71B25AC7800F134CC /* ViewController.m */,
+				A7CE41F91B25AC7800F134CC /* Main.storyboard */,
+				A7CE41FC1B25AC7800F134CC /* Images.xcassets */,
+				A7CE41FE1B25AC7800F134CC /* LaunchScreen.xib */,
+				A7CE41EF1B25AC7800F134CC /* Supporting Files */,
+			);
+			path = "Day#14HwAccupass";
+			sourceTree = "<group>";
+		};
+		A7CE41EF1B25AC7800F134CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE41F01B25AC7800F134CC /* Info.plist */,
+				A7CE41F11B25AC7800F134CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7CE42081B25AC7800F134CC /* Day#14HwAccupassTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE420B1B25AC7800F134CC /* Day_14HwAccupassTests.m */,
+				A7CE42091B25AC7800F134CC /* Supporting Files */,
+			);
+			path = "Day#14HwAccupassTests";
+			sourceTree = "<group>";
+		};
+		A7CE42091B25AC7800F134CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE420A1B25AC7800F134CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7CE42151B25BAB400F134CC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE422E1B25D06800F134CC /* personphoto.png */,
+				A7CE422C1B25CA3100F134CC /* safari.png */,
+				A7CE42281B25C0D800F134CC /* logo.png */,
+				A7CE42181B25BF5600F134CC /* accessibility.png */,
+				A7CE42191B25BF5600F134CC /* cart.png */,
+				A7CE421A1B25BF5600F134CC /* exit.png */,
+				A7CE421B1B25BF5600F134CC /* search.png */,
+				A7CE421C1B25BF5600F134CC /* settings.png */,
+				A7CE421D1B25BF5600F134CC /* wrench.png */,
+				A7CE421E1B25BF5600F134CC /* iPhone 6 Accupass.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7CE41EB1B25AC7800F134CC /* Day#14HwAccupass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CE420F1B25AC7800F134CC /* Build configuration list for PBXNativeTarget "Day#14HwAccupass" */;
+			buildPhases = (
+				A7CE41E81B25AC7800F134CC /* Sources */,
+				A7CE41E91B25AC7800F134CC /* Frameworks */,
+				A7CE41EA1B25AC7800F134CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day#14HwAccupass";
+			productName = "Day#14HwAccupass";
+			productReference = A7CE41EC1B25AC7800F134CC /* Day#14HwAccupass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7CE42041B25AC7800F134CC /* Day#14HwAccupassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CE42121B25AC7800F134CC /* Build configuration list for PBXNativeTarget "Day#14HwAccupassTests" */;
+			buildPhases = (
+				A7CE42011B25AC7800F134CC /* Sources */,
+				A7CE42021B25AC7800F134CC /* Frameworks */,
+				A7CE42031B25AC7800F134CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CE42071B25AC7800F134CC /* PBXTargetDependency */,
+			);
+			name = "Day#14HwAccupassTests";
+			productName = "Day#14HwAccupassTests";
+			productReference = A7CE42051B25AC7800F134CC /* Day#14HwAccupassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CE41E41B25AC7800F134CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = lalaleelala;
+				TargetAttributes = {
+					A7CE41EB1B25AC7800F134CC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A7CE42041B25AC7800F134CC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A7CE41EB1B25AC7800F134CC;
+					};
+				};
+			};
+			buildConfigurationList = A7CE41E71B25AC7800F134CC /* Build configuration list for PBXProject "Day#14HwAccupass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7CE41E31B25AC7800F134CC;
+			productRefGroup = A7CE41ED1B25AC7800F134CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CE41EB1B25AC7800F134CC /* Day#14HwAccupass */,
+				A7CE42041B25AC7800F134CC /* Day#14HwAccupassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7CE41EA1B25AC7800F134CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CE422D1B25CA3100F134CC /* safari.png in Resources */,
+				A7CE41FB1B25AC7800F134CC /* Main.storyboard in Resources */,
+				A7CE42001B25AC7800F134CC /* LaunchScreen.xib in Resources */,
+				A7CE42291B25C0D800F134CC /* logo.png in Resources */,
+				A7CE42221B25BF5600F134CC /* search.png in Resources */,
+				A7CE41FD1B25AC7800F134CC /* Images.xcassets in Resources */,
+				A7CE421F1B25BF5600F134CC /* accessibility.png in Resources */,
+				A7CE42241B25BF5600F134CC /* wrench.png in Resources */,
+				A7CE42251B25BF5600F134CC /* iPhone 6 Accupass.png in Resources */,
+				A7CE422F1B25D06800F134CC /* personphoto.png in Resources */,
+				A7CE42231B25BF5600F134CC /* settings.png in Resources */,
+				A7CE42211B25BF5600F134CC /* exit.png in Resources */,
+				A7CE42201B25BF5600F134CC /* cart.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CE42031B25AC7800F134CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7CE41E81B25AC7800F134CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CE41F81B25AC7800F134CC /* ViewController.m in Sources */,
+				A7CE41F51B25AC7800F134CC /* AppDelegate.m in Sources */,
+				A7CE41F21B25AC7800F134CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CE42011B25AC7800F134CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CE420C1B25AC7800F134CC /* Day_14HwAccupassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7CE42071B25AC7800F134CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CE41EB1B25AC7800F134CC /* Day#14HwAccupass */;
+			targetProxy = A7CE42061B25AC7800F134CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7CE41F91B25AC7800F134CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CE41FA1B25AC7800F134CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7CE41FE1B25AC7800F134CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CE41FF1B25AC7800F134CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7CE420D1B25AC7800F134CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7CE420E1B25AC7800F134CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CE42101B25AC7800F134CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day#14HwAccupass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7CE42111B25AC7800F134CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day#14HwAccupass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7CE42131B25AC7800F134CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Day#14HwAccupassTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day#14HwAccupass.app/Day#14HwAccupass";
+			};
+			name = Debug;
+		};
+		A7CE42141B25AC7800F134CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Day#14HwAccupassTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day#14HwAccupass.app/Day#14HwAccupass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7CE41E71B25AC7800F134CC /* Build configuration list for PBXProject "Day#14HwAccupass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CE420D1B25AC7800F134CC /* Debug */,
+				A7CE420E1B25AC7800F134CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CE420F1B25AC7800F134CC /* Build configuration list for PBXNativeTarget "Day#14HwAccupass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CE42101B25AC7800F134CC /* Debug */,
+				A7CE42111B25AC7800F134CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CE42121B25AC7800F134CC /* Build configuration list for PBXNativeTarget "Day#14HwAccupassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CE42131B25AC7800F134CC /* Debug */,
+				A7CE42141B25AC7800F134CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7CE41E41B25AC7800F134CC /* Project object */;
+}
